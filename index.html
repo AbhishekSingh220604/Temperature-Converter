@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter</title>
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/unigrid-weather/56/027_thermometer_temperature_control_monitoring_indicator_weather-512.png" />
+</head>
+<body><nav>
+    <div class="navbar-mainlogo">
+        <img class="navbar-n" src="https://www.rhopointcomponents.com/wp-content/uploads/2021/01/calc_image_temperature_unit_converter.jpg"
+            alt="logo">
+    </div>
+    <div class="navbar-mainhead">
+        <h1>
+            <center>
+                BHARAT INTERN INTERNSHIP
+            </center>
+        </h1>
+    </div>
+    <div class="navbar-mainsocials">
+        <a href="https://www.linkedin.com/in/abhisheksingh18008/">
+            <img class="navbar-n"
+                src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-square1-512.png"
+                alt="linkedin">
+        </a>
+        <a href="https://www.instagram.com/kartikey_._here/">
+            <img class="navbar-n"
+                src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png"
+                alt="github">
+        </a>
+    </div>
+</nav>
+    <div class="converter-container">
+        <h1>Temperature Converter</h1>
+        <div class="input-container">
+            <input type="number" id="amount" placeholder="Enter amount">
+            <select id="fromCurrency">
+                <option value="CEL">CELCIUS</option>
+                <option value="FAR">FARHENEIT</option>
+                <option value="KEL">KELVIN</option>
+            </select>
+            <span>to</span>
+            <select id="toCurrency">
+                <option value="CEL">CELCIUS</option>
+                <option value="FAR">FARHENEIT</option>
+                <option value="KEL">KELVIN</option>
+            </select> 
+            <button id="convertBtn">Convert</button>
+        </div>
+        <div id="result" class="result-container">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
